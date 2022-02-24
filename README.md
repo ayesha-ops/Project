@@ -1,2 +1,2 @@
 # EpathShala
-# An Online School inspired by Coursera!
+  An Online School inspired by Coursera!
