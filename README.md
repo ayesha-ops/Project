@@ -5,7 +5,7 @@
   Made for Level-2 Term-2 Database Sessional Project created by  Ayesha Binte Mostofa (1805062) and Sumaiya Sultana Any(1805079) 
  ###### Under the kind supervision of Tahmid Hasan, Lecturer, CSE, BUET
  
-### Tools used
+### Tools
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
@@ -13,5 +13,8 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-
+<li> Java Springboot </li>
+<li> PostgreSQL for Database </li>
+<li> HTML, CSS, Bootstrap and Javascript for Frontend </li>
+<li> Google Firebase for Cloud Storage </li>
 
