@@ -5,14 +5,16 @@
   Made for Level-2 Term-2 Database Sessional Project created by  Ayesha Binte Mostofa (1805062) and Sumaiya Sultana Any(1805079) 
  ###### Under the kind supervision of Tahmid Hasan, Lecturer, CSE, BUET
  
-### Tools 
+### Tools Database and Frontend
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-Spring Boot 
+
+### Tools for Backend 
+<li>Spring Boot</li>
 <h2> Users in our platform: </h2>
 <li> Admin </li>
 <li> Teacher </li>
