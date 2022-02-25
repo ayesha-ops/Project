@@ -18,7 +18,6 @@
 -- ----------------------------
 -- Table structure for ADMIN
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."ADMIN";
 CREATE TABLE "C##EPATHSHALA"."ADMIN" (
   "ADMIN_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
   "ADMIN_NAME" VARCHAR2(255 BYTE) VISIBLE NOT NULL,
@@ -49,9 +48,59 @@ INSERT INTO "C##EPATHSHALA"."ADMIN" VALUES ('admin1', 'Ayesha', 'admin', 'ayesha
 INSERT INTO "C##EPATHSHALA"."ADMIN" VALUES ('admin2', 'Sumaiya', 'admin', 'sumaiyany@gmail.com', '\images\admin2.jpg');
 
 -- ----------------------------
+-- Sequence structure for ISEQ$$_74224
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74224" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74227
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74227" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74230
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74230" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74233
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74233" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74236
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74236" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74239
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74239" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74242
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74242" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74245
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74245" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74419
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74419" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
+-- Sequence structure for ISEQ$$_74422
+-- ----------------------------
+CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74422" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
+
+-- ----------------------------
 -- Table structure for COMMENTS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."COMMENTS";
+
 CREATE TABLE "C##EPATHSHALA"."COMMENTS" (
   "COMMENT_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74236".nextval NOT NULL,
   "USER_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
@@ -118,7 +167,6 @@ INSERT INTO "C##EPATHSHALA"."COMMENTS" VALUES ('52', 'user10', '62', '21', 'Disc
 -- ----------------------------
 -- Table structure for COURSES
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."COURSES";
 CREATE TABLE "C##EPATHSHALA"."COURSES" (
   "COURSE_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74224".nextval NOT NULL,
   "TITLE" VARCHAR2(255 BYTE) VISIBLE NOT NULL,
@@ -166,7 +214,6 @@ INSERT INTO "C##EPATHSHALA"."COURSES" VALUES ('44', 'Family(Sweetest Thing In Th
 -- ----------------------------
 -- Table structure for ENROLLMENT
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."ENROLLMENT";
 CREATE TABLE "C##EPATHSHALA"."ENROLLMENT" (
   "ENROLL_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74230".nextval NOT NULL,
   "S_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
@@ -227,7 +274,6 @@ INSERT INTO "C##EPATHSHALA"."ENROLLMENT" VALUES ('44', 'user3', '20');
 -- ----------------------------
 -- Table structure for FORUMS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."FORUMS";
 CREATE TABLE "C##EPATHSHALA"."FORUMS" (
   "FORUM_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74233".nextval NOT NULL,
   "DISCUSSION_TOPIC" VARCHAR2(1000 BYTE) VISIBLE NOT NULL
@@ -275,7 +321,6 @@ INSERT INTO "C##EPATHSHALA"."FORUMS" VALUES ('62', 'Vocabulary');
 -- ----------------------------
 -- Table structure for NOTIFICATIONS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."NOTIFICATIONS";
 CREATE TABLE "C##EPATHSHALA"."NOTIFICATIONS" (
   "NOTIFICATION_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74227".nextval NOT NULL,
   "NOTIFICATION" VARCHAR2(2000 BYTE) VISIBLE NOT NULL,
@@ -314,7 +359,6 @@ INSERT INTO "C##EPATHSHALA"."NOTIFICATIONS" VALUES ('10', 'cmmnt1 by user10', 'u
 -- ----------------------------
 -- Table structure for QUIZES
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."QUIZES";
 CREATE TABLE "C##EPATHSHALA"."QUIZES" (
   "QUIZ_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74242".nextval NOT NULL,
   "COURSE_ID" NUMBER VISIBLE NOT NULL,
@@ -375,7 +419,6 @@ INSERT INTO "C##EPATHSHALA"."QUIZES" VALUES ('46', '44', 'How Many Fingers Are I
 -- ----------------------------
 -- Table structure for STUDENTS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."STUDENTS";
 CREATE TABLE "C##EPATHSHALA"."STUDENTS" (
   "S_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
   "S_CLASS" NUMBER VISIBLE
@@ -410,7 +453,6 @@ INSERT INTO "C##EPATHSHALA"."STUDENTS" VALUES ('user13', '11');
 -- ----------------------------
 -- Table structure for TAKES_EXAM
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."TAKES_EXAM";
 CREATE TABLE "C##EPATHSHALA"."TAKES_EXAM" (
   "EXAM_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74422".nextval NOT NULL,
   "S_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
@@ -503,7 +545,6 @@ INSERT INTO "C##EPATHSHALA"."TAKES_EXAM" VALUES ('68', 'user3', '24', '0');
 -- ----------------------------
 -- Table structure for TEACHERS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."TEACHERS";
 CREATE TABLE "C##EPATHSHALA"."TEACHERS" (
   "T_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
   "T_DESIGNATION" VARCHAR2(255 BYTE) VISIBLE,
@@ -537,7 +578,6 @@ INSERT INTO "C##EPATHSHALA"."TEACHERS" VALUES ('user10', 'Lecturer', 'English');
 -- ----------------------------
 -- Table structure for TOPICS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."TOPICS";
 CREATE TABLE "C##EPATHSHALA"."TOPICS" (
   "TOPIC_ID" NUMBER VISIBLE DEFAULT "C##EPATHSHALA"."ISEQ$$_74239".nextval NOT NULL,
   "TOPIC_NAME" VARCHAR2(255 BYTE) VISIBLE NOT NULL,
@@ -596,7 +636,6 @@ INSERT INTO "C##EPATHSHALA"."TOPICS" VALUES ('49', 'Definition Of Family', 'http
 -- ----------------------------
 -- Table structure for USERS
 -- ----------------------------
-DROP TABLE "C##EPATHSHALA"."USERS";
 CREATE TABLE "C##EPATHSHALA"."USERS" (
   "USER_ID" VARCHAR2(20 BYTE) VISIBLE NOT NULL,
   "PASSWORD" VARCHAR2(8 BYTE) VISIBLE NOT NULL,
@@ -698,65 +737,6 @@ BEGIN
 END;
 /
 
--- ----------------------------
--- Sequence structure for ISEQ$$_74224
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74224";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74224" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74227
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74227";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74227" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74230
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74230";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74230" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74233
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74233";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74233" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74236
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74236";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74236" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74239
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74239";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74239" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74242
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74242";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74242" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74245
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74245";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74245" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74419
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74419";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74419" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
-
--- ----------------------------
--- Sequence structure for ISEQ$$_74422
--- ----------------------------
-DROP SEQUENCE "C##EPATHSHALA"."ISEQ$$_74422";
-CREATE SEQUENCE "C##EPATHSHALA"."ISEQ$$_74422" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 CACHE 20;
 
 -- ----------------------------
 -- Primary Key structure for table ADMIN
