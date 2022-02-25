@@ -5,6 +5,7 @@
   Made for Level-2 Term-2 Database Sessional Project created by  Ayesha Binte Mostofa (1805062) and Sumaiya Sultana Any(1805079) 
  ###### Under the kind supervision of Tahmid Hasan, Lecturer, CSE, BUET
  
+This is a maven project
 ### Tools For Database and Frontend
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
@@ -15,10 +16,9 @@
 <li>JSTL</li>
 
 ### Tools for Backend 
-This is a maven project
 <li>Spring Boot</li>
 <li>Spring Security</li>
-For details please see pom.xml
+For details, please see pom.xml
 <h2> Users in our platform: </h2>
 <li> Admin </li>
 <li> Teacher </li>
@@ -96,7 +96,9 @@ For details please see pom.xml
 create user c##epathshala identified by epathshala;
 grant dba to c##epathshala;
 ```
-    
+ <li>Download NAVICAT and create a connection using c##epathshala user and password epathshala. </li>
+ <li>Open the sql file with NAVICAT and choose the connection and user. Then run the file</li>
+  
 </ul>
 
 
