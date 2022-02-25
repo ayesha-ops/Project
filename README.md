@@ -85,7 +85,7 @@ For details please see pom.xml
 
 ## How to set up:
   <ul>
-    <li>Clone repository or download zip file. Run on terminal:
+    <li>Clone repository or download zip file. Run on terminal
 
   
   <li> Download Oracle 19c. Create a user c##epathshala with password epathshala. Run in SQL-PLUS
