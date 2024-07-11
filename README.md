@@ -2,10 +2,10 @@
 
 # EpathShala
   An Online School inspired by Coursera!
-  Made for Level-2 Term-2 Database Sessional Project created by  Ayesha Binte Mostofa (1805062), Sumaiya Sultana Any(1805079) 
+  Made for Level-2 Term-2 Database Sessional Project created by  Ayesha Binte Mostofa (1805062), Labiba Binte Tashin (1805070), Sumaiya Sultana Any(1805079) 
  ###### Under the kind supervision of Tahmid Hasan, Lecturer, CSE, BUET
  
-This is a maven project. See our Project Demonstration : https://www.youtube.com/watch?v=RWAkR-tGzPM&t=1089s
+This is a maven project. See our Project Demonstration : [Youtube Video Link](https://www.youtube.com/watch?v=RWAkR-tGzPM&t=1089s)
 ### Tools For Database and Frontend
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
